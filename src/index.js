@@ -3,7 +3,7 @@ const { Client, Collection, Intents } = require("discord.js");
 const client = new Client({
   intents: Intents.ALL,
 });
-client.login("NzM4Nzk1MTQyMTE4NjM3NjQy.XyRGmA.76Km-IJ4CjL8-7iNkwQzSdx3zwI");
+client.login("oop");
 client.slash = new Collection();
 client.once("ready", () => {
   require("./loaders/slash")(client);
